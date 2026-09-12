@@ -4,17 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 01 - xiaohe",
-      "server": "103.86.49.57",
-      "server_port": 80,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "aIs.SpEeDtEsT.nEt"
-        }
+      "type": "trojan",
+      "tag": "🇾🇪 YE 01 - lgxbh",
+      "server": "z-jp1.1card.cc",
+      "server_port": 10010,
+      "password": "ultra@kWZdAzt_IH593eGLRjdxnBZ0",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true
       }
     },
     {
@@ -22,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+        "🇾🇪 YE 01 - lgxbh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+        "🇾🇪 YE 01 - lgxbh"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -4,7 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+- name: 🇸🇪 瑞典 (Sweden) 01 - lgxbh
   server: 91.193.17.156
   port: 9458
   udp: true
@@ -14,11 +14,23 @@ proxies:
   reality-opts:
     public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
   servername: www.google.com
-  client-fingerprint: edge
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
-- name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
+- name: 🇸🇪 瑞典 (Sweden) 02 - lgxbh
+  server: 143.246.193.215
+  port: 443
+  udp: true
+  type: vless
+  uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
+  servername: www.blocket.se
+  client-fingerprint: randomized
+- name: 🇸🇪 瑞典 (Sweden) 03 - lgxbh
   server: 79.141.174.147
   port: 33743
   udp: true
@@ -32,7 +44,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
-- name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
+- name: 🇸🇪 瑞典 (Sweden) 04 - lgxbh
   server: se-node.rumedia-cdn.com
   port: 25443
   udp: true
@@ -40,7 +52,7 @@ proxies:
   password: 29ffde49-e1d6-4dcd-a135-352920f9f0b8
   sni: cf2.rumedia-cdn.com
   skip-cert-verify: true
-- name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
+- name: 🇸🇪 瑞典 (Sweden) 05 - lgxbh
   server: 88.216.130.139
   port: 8443
   udp: true
@@ -52,32 +64,25 @@ proxies:
     public-key: iRym2aMWC0ZoLJL7MtJm9p0xqFMutfe6_5B5tZyobxU
   servername: apple.com
   client-fingerprint: firefox
-- name: 🇸🇪 瑞典 (Sweden) 05 - xiaohe
-  server: 70.34.212.124
-  port: 8388
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: AxIYWtskJWIIaefW
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 02 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 04 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 05 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 01 - lgxbh
+  - 🇸🇪 瑞典 (Sweden) 02 - lgxbh
+  - 🇸🇪 瑞典 (Sweden) 03 - lgxbh
+  - 🇸🇪 瑞典 (Sweden) 04 - lgxbh
+  - 🇸🇪 瑞典 (Sweden) 05 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 02 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 04 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 05 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 01 - lgxbh
+  - 🇸🇪 瑞典 (Sweden) 02 - lgxbh
+  - 🇸🇪 瑞典 (Sweden) 03 - lgxbh
+  - 🇸🇪 瑞典 (Sweden) 04 - lgxbh
+  - 🇸🇪 瑞典 (Sweden) 05 - lgxbh
 rules:
 - MATCH,PROXIES

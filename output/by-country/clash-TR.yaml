@@ -4,7 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+- name: 🇹🇷 土耳其 (Turkey) 01 - lgxbh
   server: 156.67.63.231
   port: 443
   udp: true
@@ -22,12 +22,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - lgxbh
 rules:
 - MATCH,PROXIES

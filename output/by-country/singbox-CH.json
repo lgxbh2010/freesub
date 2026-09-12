@@ -4,21 +4,25 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "www.calmlunch.com",
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 01 - lgxbh",
+      "server": "151.242.2.81",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "0a2dde28-70da-4863-a06f-35d007d94d35",
       "tls": {
         "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "insecure": false
+        "server_name": "cf9.rumedia-cdn.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/cdn/v3/live",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "cf9.rumedia-cdn.com"
         }
       }
     },
@@ -27,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 01 - lgxbh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 01 - lgxbh"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

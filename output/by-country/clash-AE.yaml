@@ -4,19 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  server: 31.58.181.88
-  port: 8443
-  udp: true
-  type: vless
-  uuid: fa34a94b-f304-4290-bd94-a83cc2ce21be
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: edge
-- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
+- name: 🇦🇪 阿联酋 (UAE) 01 - lgxbh
   server: 31.56.189.27
   port: 2087
   udp: true
@@ -29,7 +17,19 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: freegrpc
-- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
+- name: 🇦🇪 阿联酋 (UAE) 02 - lgxbh
+  server: 31.58.181.88
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 863ce48d-6b5e-4682-b5d7-0c9b43895841
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 03 - lgxbh
   server: 130.49.161.70
   port: 443
   udp: true
@@ -39,7 +39,7 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
+- name: 🇦🇪 阿联酋 (UAE) 04 - lgxbh
   server: 85.204.107.181
   port: 8080
   udp: true
@@ -47,7 +47,7 @@ proxies:
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   sni: hopp-romania-new.roxa.org
   skip-cert-verify: false
-- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+- name: 🇦🇪 阿联酋 (UAE) 05 - lgxbh
   server: 84.235.244.108
   port: 22573
   udp: true
@@ -63,20 +63,20 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 04 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 01 - lgxbh
+  - 🇦🇪 阿联酋 (UAE) 02 - lgxbh
+  - 🇦🇪 阿联酋 (UAE) 03 - lgxbh
+  - 🇦🇪 阿联酋 (UAE) 04 - lgxbh
+  - 🇦🇪 阿联酋 (UAE) 05 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 04 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 01 - lgxbh
+  - 🇦🇪 阿联酋 (UAE) 02 - lgxbh
+  - 🇦🇪 阿联酋 (UAE) 03 - lgxbh
+  - 🇦🇪 阿联酋 (UAE) 04 - lgxbh
+  - 🇦🇪 阿联酋 (UAE) 05 - lgxbh
 rules:
 - MATCH,PROXIES

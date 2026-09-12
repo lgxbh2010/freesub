@@ -4,7 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇴 罗马尼亚 (Romania) 01 (家宽) - xiaohe
+- name: 🇷🇴 罗马尼亚 (Romania) 01 (家宽) - lgxbh
   server: roma2.moritech.net
   port: 443
   udp: true
@@ -20,12 +20,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇷🇴 罗马尼亚 (Romania) 01 (家宽) - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 01 (家宽) - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇴 罗马尼亚 (Romania) 01 (家宽) - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 01 (家宽) - lgxbh
 rules:
 - MATCH,PROXIES
