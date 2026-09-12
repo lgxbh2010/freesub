@@ -4,26 +4,32 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇨🇱 智利 (Chile) 01 - lgxbh",
-      "server": "64.176.2.21",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "xBStBEVqvGwHPocc"
+      "type": "vless",
+      "tag": "🇹🇭 泰国 (Thailand) 01 - lgxbh",
+      "server": "103.86.49.57",
+      "server_port": 80,
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "ais.speedtest.net"
+        }
+      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇱 智利 (Chile) 01 - lgxbh"
+        "🇹🇭 泰国 (Thailand) 01 - lgxbh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇱 智利 (Chile) 01 - lgxbh"
+        "🇹🇭 泰国 (Thailand) 01 - lgxbh"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

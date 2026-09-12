@@ -5,258 +5,264 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇳🇱 荷兰 (Netherlands) 01 - lgxbh
-  server: 158.173.20.208
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇳🇱 荷兰 (Netherlands) 02 - lgxbh
-  server: 108.181.126.122
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: CJmTCCx7Ltud
-- name: 🇳🇱 荷兰 (Netherlands) 03 - lgxbh
-  server: 82.38.31.162
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 04 - lgxbh
-  server: 82.38.31.26
+  server: 193.29.139.188
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 05 - lgxbh
+- name: 🇳🇱 荷兰 (Netherlands) 02 - lgxbh
   server: 82.38.31.174
   port: 443
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 06 - lgxbh
-  server: 82.38.31.207
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 07 - lgxbh
-  server: 193.29.139.147
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 08 - lgxbh
-  server: 193.29.139.132
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 09 - lgxbh
-  server: 82.38.31.47
+- name: 🇳🇱 荷兰 (Netherlands) 03 - lgxbh
+  server: 82.38.31.10
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 10 - lgxbh
-  server: 82.38.31.200
+- name: 🇳🇱 荷兰 (Netherlands) 04 - lgxbh
+  server: 82.38.31.217
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 11 - lgxbh
+- name: 🇳🇱 荷兰 (Netherlands) 05 - lgxbh
   server: 82.38.31.203
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 12 - lgxbh
-  server: 82.38.31.7
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 13 - lgxbh
-  server: 82.38.31.213
+- name: 🇳🇱 荷兰 (Netherlands) 06 - lgxbh
+  server: 82.38.31.193
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 14 - lgxbh
-  server: 82.38.31.34
+- name: 🇳🇱 荷兰 (Netherlands) 07 - lgxbh
+  server: 188.116.23.244
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: eVC634QvVk5l
+- name: 🇳🇱 荷兰 (Netherlands) 08 - lgxbh
+  server: 82.38.31.35
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 15 - lgxbh
-  server: 82.38.31.2
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 16 - lgxbh
-  server: 82.38.31.192
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 17 - lgxbh
-  server: 82.38.31.211
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 18 - lgxbh
-  server: 82.38.31.182
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 19 - lgxbh
-  server: 82.38.31.62
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 20 - lgxbh
-  server: 82.38.31.42
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 21 - lgxbh
-  server: 82.38.31.216
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 22 - lgxbh
-  server: 82.38.31.190
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 23 - lgxbh
-  server: 82.38.31.149
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 24 - lgxbh
+- name: 🇳🇱 荷兰 (Netherlands) 09 - lgxbh
   server: 82.38.31.82
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 25 - lgxbh
-  server: 82.38.31.174
+- name: 🇳🇱 荷兰 (Netherlands) 10 - lgxbh
+  server: 82.38.31.187
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 11 - lgxbh
+  server: 82.38.31.179
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 12 - lgxbh
+  server: 193.29.139.202
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 26 - lgxbh
+- name: 🇳🇱 荷兰 (Netherlands) 13 - lgxbh
+  server: 158.173.20.208
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇳🇱 荷兰 (Netherlands) 14 - lgxbh
+  server: 82.38.31.206
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 15 - lgxbh
+  server: 82.38.31.17
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 16 - lgxbh
+  server: 82.38.31.202
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 17 - lgxbh
+  server: 82.38.31.182
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 18 - lgxbh
+  server: 82.38.31.47
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 19 - lgxbh
+  server: 193.29.139.234
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+- name: 🇳🇱 荷兰 (Netherlands) 20 - lgxbh
+  server: 82.38.31.149
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 21 - lgxbh
   server: 82.38.31.149
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 27 - lgxbh
-  server: 82.38.31.66
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 28 - lgxbh
-  server: 82.38.31.186
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 29 - lgxbh
-  server: 82.38.31.36
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 30 - lgxbh
-  server: 82.38.31.11
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 31 - lgxbh
-  server: 82.38.31.16
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 32 - lgxbh
-  server: 82.38.31.46
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 33 - lgxbh
-  server: 193.29.139.197
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 34 - lgxbh
-  server: 82.38.31.39
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 35 - lgxbh
-  server: 82.38.31.198
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 36 - lgxbh
+- name: 🇳🇱 荷兰 (Netherlands) 22 - lgxbh
   server: 82.38.31.61
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 37 - lgxbh
+- name: 🇳🇱 荷兰 (Netherlands) 23 - lgxbh
+  server: 82.38.31.26
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 24 - lgxbh
+  server: 193.29.139.197
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 25 - lgxbh
+  server: 108.181.58.239
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: CJmTCCx7Ltud
+- name: 🇳🇱 荷兰 (Netherlands) 26 - lgxbh
+  server: 82.38.31.214
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 27 - lgxbh
+  server: 82.38.31.39
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 28 - lgxbh
+  server: 82.38.31.42
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 29 - lgxbh
+  server: 82.38.31.3
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 30 - lgxbh
+  server: 82.38.31.174
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 31 - lgxbh
+  server: 82.38.31.219
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 32 - lgxbh
+  server: 82.38.31.189
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 33 - lgxbh
+  server: 5.129.235.85
+  port: 443
+  udp: true
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: www.linux.com\u0026insecure=1\u0026allowinsecure=1
+  skip-cert-verify: true
+- name: 🇳🇱 荷兰 (Netherlands) 34 - lgxbh
+  server: 51.158.206.19
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 35 - lgxbh
+  server: 51.158.206.34
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 36 - lgxbh
   server: 51.158.206.96
   port: 23576
   udp: true
@@ -269,67 +275,33 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 37 - lgxbh
+  server: 82.38.31.66
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 38 - lgxbh
-  server: 5.129.235.85
+  server: 72.56.92.120
   port: 443
   udp: true
   type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: whatsapp.com
+  password: CnVfXXvMzh
+  sni: hys13.wba-pn.ru
   skip-cert-verify: true
 - name: 🇳🇱 荷兰 (Netherlands) 39 - lgxbh
-  server: 51.158.206.26
-  port: 23576
+  server: 85.17.145.65
+  port: 12068
   udp: true
   type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
+  uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mypanel.unixzone.us
 - name: 🇳🇱 荷兰 (Netherlands) 40 - lgxbh
-  server: 51.158.206.25
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 41 - lgxbh
-  server: 51.158.206.98
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: ''
-- name: 🇳🇱 荷兰 (Netherlands) 42 - lgxbh
-  server: 72.56.81.165
-  port: 40443
-  udp: true
-  type: vless
-  uuid: 4bf5a71c-d726-4585-b095-7396675706d5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU
-    short-id: c84f
-  servername: deepl.com
-  client-fingerprint: firefox
-- name: 🇳🇱 荷兰 (Netherlands) 43 - lgxbh
   server: 51.158.206.97
   port: 23576
   udp: true
@@ -342,33 +314,15 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 44 - lgxbh
-  server: 84.32.177.64
-  port: 443
+- name: 🇳🇱 荷兰 (Netherlands) 41 - lgxbh
+  server: 46.229.243.152
+  port: 8443
   udp: true
-  type: vless
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: xNzdfy4hPv-IgM_MSn64FNQdb-UPu78pmM-GBE1HhSo
-    short-id: ef5d4ad5
-  servername: apiv13.betust.net
-  client-fingerprint: ''
-- name: 🇳🇱 荷兰 (Netherlands) 45 - lgxbh
-  server: 51.158.206.87
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: ''
-- name: 🇳🇱 荷兰 (Netherlands) 46 - lgxbh
+  type: hysteria2
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  sni: grape-turbo-fr.roxa.org
+  skip-cert-verify: true
+- name: 🇳🇱 荷兰 (Netherlands) 42 - lgxbh
   server: 51.158.206.80
   port: 23576
   udp: true
@@ -380,17 +334,17 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   servername: fuck.rkn
-  client-fingerprint: ''
-- name: 🇳🇱 荷兰 (Netherlands) 47 - lgxbh
-  server: 72.56.16.243
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 43 - lgxbh
+  server: 72.56.102.31
   port: 443
   udp: true
   type: hysteria2
-  password: EkF2Yw0Lc7
-  sni: hys34.wba-pn.ru
+  password: BWAFlp8g53
+  sni: 72.56.102.31
   skip-cert-verify: true
-- name: 🇳🇱 荷兰 (Netherlands) 48 - lgxbh
-  server: 51.158.206.34
+- name: 🇳🇱 荷兰 (Netherlands) 44 - lgxbh
+  server: 51.158.206.20
   port: 23576
   udp: true
   type: vless
@@ -402,27 +356,29 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: ''
-- name: 🇳🇱 荷兰 (Netherlands) 49 - lgxbh
-  server: 72.56.102.31
-  port: 443
-  udp: true
-  type: hysteria2
-  password: BWAFlp8g53
-  sni: 72.56.102.31
-  skip-cert-verify: true
-- name: 🇳🇱 荷兰 (Netherlands) 50 - lgxbh
-  server: 153.75.89.137
-  port: 443
+- name: 🇳🇱 荷兰 (Netherlands) 45 - lgxbh
+  server: 31.76.76.28
+  port: 8443
   udp: true
   type: vless
-  uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
+  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
+  tls: true
+  servername: neth4.lckdwn.ru
+  skip-cert-verify: false
+- name: 🇳🇱 荷兰 (Netherlands) 46 - lgxbh
+  server: 51.158.206.103
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: USxaWDRKvJlZ-aHR-OGBT2XwVas2j4_1rhZCCfVNCBY
-  servername: tradingview.com
-  client-fingerprint: firefox
-- name: 🇳🇱 荷兰 (Netherlands) 51 - lgxbh
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 47 - lgxbh
   server: 130.12.242.106
   port: 443
   udp: true
@@ -435,30 +391,16 @@ proxies:
     short-id: 15affa0af66dfc79
   servername: deepl.com
   client-fingerprint: firefox
-- name: 🇳🇱 荷兰 (Netherlands) 52 - lgxbh
-  server: cdn15sw.goonars.com
+- name: 🇳🇱 荷兰 (Netherlands) 48 - lgxbh
+  server: 193.23.194.167
   port: 443
   udp: true
   type: vless
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg
-    short-id: cf41f778
-  servername: cdn15sw.goonars.com
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 53 - lgxbh
-  server: 147.45.61.227
-  port: 8443
-  udp: true
-  type: vless
-  uuid: cf8087f3-0af3-4860-ab77-c253056d4b88
-  flow: xtls-rprx-vision
-  tls: true
-  servername: n3.plus-abc.ru
-  skip-cert-verify: false
-- name: 🇳🇱 荷兰 (Netherlands) 54 - lgxbh
+  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇳🇱 荷兰 (Netherlands) 49 - lgxbh
   server: 51.158.206.12
   port: 23576
   udp: true
@@ -471,19 +413,82 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 55 - lgxbh
-  server: 77.233.213.106
+- name: 🇳🇱 荷兰 (Netherlands) 50 - lgxbh
+  server: 138.16.141.59
+  port: 7443
+  udp: true
+  type: vless
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  tls: true
+  reality-opts:
+    public-key: RY7zkFQ01lI92jxNAyCa8T33UBW1fgpJgg8ZEqMA10k
+    short-id: a09ff9f8
+  servername: ibm.com
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 51 - lgxbh
+  server: 72.56.81.165
   port: 40443
   udp: true
   type: vless
-  uuid: 279a8eef-898f-44ef-b4f5-67a494f4b542
+  uuid: 4bf5a71c-d726-4585-b095-7396675706d5
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: vAG5o6TQvpZAlvDnlyhHEFZBuSgEV_ybQigD_mGKh1M
-    short-id: 5b98
+    public-key: D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU
+    short-id: c84f
   servername: deepl.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 52 - lgxbh
+  server: 51.158.206.98
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 53 - lgxbh
+  server: 51.158.206.87
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 54 - lgxbh
+  server: 51.158.206.86
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 55 - lgxbh
+  server: 51.158.206.29
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  servername: fuck.rkn
+  client-fingerprint: random
 - name: 🇳🇱 荷兰 (Netherlands) 56 - lgxbh
   server: 51.158.206.93
   port: 23576
@@ -498,7 +503,89 @@ proxies:
   servername: fuck.rkn
   client-fingerprint: ''
 - name: 🇳🇱 荷兰 (Netherlands) 57 - lgxbh
-  server: 51.158.206.86
+  server: 153.75.89.137
+  port: 443
+  udp: true
+  type: vless
+  uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: USxaWDRKvJlZ-aHR-OGBT2XwVas2j4_1rhZCCfVNCBY
+  servername: tradingview.com
+  client-fingerprint: edge
+- name: 🇳🇱 荷兰 (Netherlands) 58 - lgxbh
+  server: 139.64.166.55
+  port: 443
+  udp: true
+  type: vless
+  uuid: c743b343-b1c9-4e44-98a9-274df2015727
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: cudJBi1zLMATgg_nlqMK5O6Lshlv8EQ2BBQjxbpF4AY
+    short-id: eedf31ed
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 59 - lgxbh
+  server: hys9.wba-pn.ru
+  port: 443
+  udp: true
+  type: hysteria2
+  password: wrSuBorIlf
+  sni: hys9.wba-pn.ru
+  skip-cert-verify: true
+- name: 🇳🇱 荷兰 (Netherlands) 60 - lgxbh
+  server: 72.56.16.243
+  port: 443
+  udp: true
+  type: hysteria2
+  password: EkF2Yw0Lc7
+  sni: hys34.wba-pn.ru
+  skip-cert-verify: true
+- name: 🇳🇱 荷兰 (Netherlands) 61 - lgxbh
+  server: 193.23.194.167
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+  tls: true
+  servername: neth.lckdwn.ru
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 62 - lgxbh
+  server: 178.95.170.115
+  port: 2087
+  udp: true
+  type: vless
+  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  network: ws
+  ws-opts:
+    path: /4bc027a44532
+- name: 🇳🇱 荷兰 (Netherlands) 63 - lgxbh
+  server: 31.76.76.28
+  port: 443
+  udp: true
+  type: vless
+  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇳🇱 荷兰 (Netherlands) 64 - lgxbh
+  server: 51.158.206.25
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 65 - lgxbh
+  server: 51.158.206.26
   port: 23576
   udp: true
   type: vless
@@ -510,7 +597,101 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: ''
-- name: 🇳🇱 荷兰 (Netherlands) 58 - lgxbh
+- name: 🇳🇱 荷兰 (Netherlands) 66 - lgxbh
+  server: 82.38.31.198
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 67 - lgxbh
+  server: 8.47.69.0
+  port: 443
+  udp: true
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇳🇱 荷兰 (Netherlands) 68 - lgxbh
+  server: 82.38.31.162
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 69 - lgxbh
+  server: 82.38.31.46
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 70 - lgxbh
+  server: 82.38.31.195
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 71 - lgxbh
+  server: alnilam.yokkastars.com
+  port: 40443
+  udp: true
+  type: vless
+  uuid: 279a8eef-898f-44ef-b4f5-67a494f4b542
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: vAG5o6TQvpZAlvDnlyhHEFZBuSgEV_ybQigD_mGKh1M
+    short-id: 5b98
+  servername: deepl.com
+  client-fingerprint: qq
+- name: 🇳🇱 荷兰 (Netherlands) 72 - lgxbh
+  server: 82.38.31.34
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 73 - lgxbh
+  server: cepheus.yokkastars.com
+  port: 40443
+  udp: true
+  type: vless
+  uuid: 0eea2d4c-9bde-40a7-bf57-3d5a9a8caeab
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: i63mOV0i35u-2VR7mpaVC0XML1dS7s6XmzAlff50Eic
+    short-id: ec70d3b2b6298ba1
+  servername: deepl.com
+  client-fingerprint: qq
+- name: 🇳🇱 荷兰 (Netherlands) 74 - lgxbh
+  server: 69.46.46.87
+  port: 443
+  udp: true
+  type: vless
+  uuid: a5727e2e-8ab5-503e-7939-057274386994
+  tls: true
+  servername: lunel-production-6f4b.up.railway.app
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /i/UzDSwPSoYxvGJwTLVyGTkgq-tUNulA7axy87p1IG8ESbs0Isemk_XuvlUFmTTSN8GgdSe9GwAQVww7Owxdr-xUzzdfY09q_zR_pXM7S0_TTAYPNu6poYpDzoFlU3QzjxxuG3Ggkyg84bBkTel3w/ws/a5727e2e-8ab5-503e-7939-057274386994
+    headers:
+      Host: lunel-production-6f4b.up.railway.app
+- name: 🇳🇱 荷兰 (Netherlands) 75 - lgxbh
+  server: 82.38.31.164
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 76 - lgxbh
   server: 51.158.206.8
   port: 23576
   udp: true
@@ -523,221 +704,21 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 59 - lgxbh
-  server: 193.23.194.167
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
-  tls: true
-  servername: neth.lckdwn.ru
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 60 - lgxbh
-  server: 51.158.206.19
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: ''
-- name: 🇳🇱 荷兰 (Netherlands) 61 - lgxbh
-  server: 188.116.23.244
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: eVC634QvVk5l
-- name: 🇳🇱 荷兰 (Netherlands) 62 - lgxbh
-  server: 46.229.243.146
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  sni: grape-turbo-fr.roxa.org
-  skip-cert-verify: false
-- name: 🇳🇱 荷兰 (Netherlands) 63 - lgxbh
-  server: 51.158.206.103
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 64 - lgxbh
-  server: 31.76.76.28
-  port: 8443
-  udp: true
-  type: vless
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
-  tls: true
-  servername: neth4.lckdwn.ru
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 65 - lgxbh
-  server: 51.158.206.20
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 66 - lgxbh
-  server: 193.23.194.167
-  port: 443
-  udp: true
-  type: vless
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 193.23.194.167
-- name: 🇳🇱 荷兰 (Netherlands) 67 - lgxbh
-  server: 84.32.177.97
-  port: 443
-  udp: true
-  type: vless
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U
-    short-id: 2aef5875
-  servername: apiv1nd.goonars.com
-  client-fingerprint: qq
-- name: 🇳🇱 荷兰 (Netherlands) 68 - lgxbh
-  server: nl5.freekeysh110.online
-  port: 443
-  udp: true
-  type: vless
-  uuid: dfa99bb0-1e9d-4b40-b984-e7853be0c9e8
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: sgPREsDFJUchKawgXgFGEM4YBjTDur0rgD2GuQmZXzA
-    short-id: 04b9f0b2470fae16
-  servername: nl5.freekeysh110.online
-  client-fingerprint: edge
-- name: 🇳🇱 荷兰 (Netherlands) 69 - lgxbh
-  server: free-amsterdam-node-1.cloudwidecdn.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: 44ae52b9-76fc-444d-8e43-186b4384b80a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU
-    short-id: 1d86d17709852910
-  servername: www.apple.com
-  client-fingerprint: edge
-- name: 🇳🇱 荷兰 (Netherlands) 70 - lgxbh
-  server: 163.172.214.188
-  port: 80
-  udp: true
-  type: vless
-  uuid: 40cc9b52-25b8-4cd5-8b45-715ae26e6baf
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: SC-TheNetherlands1.09vpn.com
-- name: 🇳🇱 荷兰 (Netherlands) 71 - lgxbh
-  server: 178.95.170.115
-  port: 2087
-  udp: true
-  type: vless
-  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
-  network: ws
-  ws-opts:
-    path: /4bc027a44532
-- name: 🇳🇱 荷兰 (Netherlands) 72 - lgxbh
+- name: 🇳🇱 荷兰 (Netherlands) 77 - lgxbh
   server: 82.38.31.164
   port: 443
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 73 - lgxbh
-  server: 193.29.139.212
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 🇳🇱 荷兰 (Netherlands) 74 - lgxbh
-  server: 31.76.76.28
-  port: 443
-  udp: true
-  type: vless
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇳🇱 荷兰 (Netherlands) 75 - lgxbh
-  server: 72.56.92.120
-  port: 443
-  udp: true
-  type: hysteria2
-  password: CnVfXXvMzh
-  sni: hys13.wba-pn.ru
-  skip-cert-verify: true
-- name: 🇳🇱 荷兰 (Netherlands) 76 - lgxbh
-  server: 152.70.58.201
-  port: 443
-  udp: true
-  type: vless
-  uuid: 8892e34a-339b-4526-b88d-cf68c516231c
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Hg_ivwbClYmR-SEHdoGgq4yEk6ltbjS5c4yiQRa4_28
-    short-id: 52c723e0fad49689
-  servername: www.nvidia.com
-  client-fingerprint: firefox
-- name: 🇳🇱 荷兰 (Netherlands) 77 - lgxbh
-  server: 8.47.69.0
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
 - name: 🇳🇱 荷兰 (Netherlands) 78 - lgxbh
-  server: hys9.wba-pn.ru
-  port: 443
-  udp: true
-  type: hysteria2
-  password: wrSuBorIlf
-  sni: hys9.wba-pn.ru
-  skip-cert-verify: false
-- name: 🇳🇱 荷兰 (Netherlands) 79 - lgxbh
-  server: 82.38.31.156
+  server: 82.38.31.176
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 80 - lgxbh
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 79 - lgxbh
   server: 85.198.70.200
   port: 14406
   udp: true
@@ -750,47 +731,67 @@ proxies:
     short-id: 1a2b3c4d5e6f7a8b
   servername: vk.ru
   client-fingerprint: firefox
+- name: 🇳🇱 荷兰 (Netherlands) 80 - lgxbh
+  server: nethgio.2clash.ru
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3b6a9df3-f1d1-4bc1-94a5-0d8f2d5512b1
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: vREd4uEheT5kCusYCZEGTh3ql4uFpHp4sk_3W0_lang
+    short-id: '1999'
+  servername: nethgio.2clash.ru
+  client-fingerprint: firefox
 - name: 🇳🇱 荷兰 (Netherlands) 81 - lgxbh
-  server: 193.29.139.151
+  server: 82.38.31.156
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 82 - lgxbh
-  server: 82.38.31.195
+  server: 193.29.139.225
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 83 - lgxbh
-  server: 193.29.139.235
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 84 - lgxbh
-  server: 193.29.139.204
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 85 - lgxbh
-  server: 51.158.206.29
-  port: 23576
+  server: 146.103.98.84
+  port: 443
   udp: true
   type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  uuid: eaae5be2-8a3b-4edb-a968-39366a478ab2
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
+    public-key: 3e_yPFFI_hf_CmzsfdElJHdI9HlVaULKWanfMYY5qB0
+    short-id: 65201ddbe0cef5
+  servername: nl-74.southnets.work
   client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 84 - lgxbh
+  server: 188.42.145.180
+  port: 443
+  udp: true
+  type: trojan
+  password: humanity
+  sni: www.volumeroot.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇳🇱 荷兰 (Netherlands) 85 - lgxbh
+  server: 147.45.61.227
+  port: 8443
+  udp: true
+  type: vless
+  uuid: cf8087f3-0af3-4860-ab77-c253056d4b88
+  flow: xtls-rprx-vision
+  tls: true
+  servername: n3.plus-abc.ru
+  skip-cert-verify: false
 - name: 🇳🇱 荷兰 (Netherlands) 86 - lgxbh
   server: hysteria.udpgw.com
   port: 8443
