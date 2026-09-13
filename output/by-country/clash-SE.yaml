@@ -5,20 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - lgxbh
-  server: 79.141.174.147
-  port: 33743
-  udp: true
-  type: vless
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  tls: true
-  reality-opts:
-    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
-  servername: www.google.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇸🇪 瑞典 (Sweden) 02 - lgxbh
   server: 91.193.17.156
   port: 9458
   udp: true
@@ -32,6 +18,18 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
+- name: 🇸🇪 瑞典 (Sweden) 02 - lgxbh
+  server: 143.246.193.215
+  port: 443
+  udp: true
+  type: vless
+  uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
+  servername: www.blocket.se
+  client-fingerprint: randomized
 - name: 🇸🇪 瑞典 (Sweden) 03 - lgxbh
   server: se-node.rumedia-cdn.com
   port: 25443
@@ -39,7 +37,21 @@ proxies:
   type: hysteria2
   password: 29ffde49-e1d6-4dcd-a135-352920f9f0b8
   sni: cf2.rumedia-cdn.com
-  skip-cert-verify: false
+  skip-cert-verify: true
+- name: 🇸🇪 瑞典 (Sweden) 04 - lgxbh
+  server: 79.141.174.147
+  port: 33743
+  udp: true
+  type: vless
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  tls: true
+  reality-opts:
+    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
+  servername: www.google.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
 proxy-groups:
 - name: PROXIES
   type: select
@@ -48,6 +60,7 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 01 - lgxbh
   - 🇸🇪 瑞典 (Sweden) 02 - lgxbh
   - 🇸🇪 瑞典 (Sweden) 03 - lgxbh
+  - 🇸🇪 瑞典 (Sweden) 04 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -56,5 +69,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 01 - lgxbh
   - 🇸🇪 瑞典 (Sweden) 02 - lgxbh
   - 🇸🇪 瑞典 (Sweden) 03 - lgxbh
+  - 🇸🇪 瑞典 (Sweden) 04 - lgxbh
 rules:
 - MATCH,PROXIES

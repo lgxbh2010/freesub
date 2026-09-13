@@ -5,19 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - lgxbh
-  server: 162.159.38.127
-  port: 2052
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 02 - lgxbh
-  server: 188.114.97.6
-  port: 2086
+  server: 104.18.46.234
+  port: 8080
   udp: true
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
@@ -25,22 +14,37 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 03 - lgxbh
-  server: 147.78.182.3
-  port: 8443
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 02 - lgxbh
+  server: 194.87.196.13
+  port: 60111
   udp: true
-  type: vless
-  uuid: 8bf3e040-8ac9-5d0e-304f-9b735e145de8
-  tls: true
-  reality-opts:
-    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
-  servername: www.epson.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
+  type: ss
+  cipher: aes-256-gcm
+  password: 4938e975724d0ed1
+- name: 🇷🇺 俄罗斯 (Russia) 03 - lgxbh
+  server: 195.58.48.137
+  port: 60111
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 8ad9d72a5571df86
 - name: 🇷🇺 俄罗斯 (Russia) 04 - lgxbh
+  server: 195.133.5.102
+  port: 60111
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 895b4b796a357570
+- name: 🇷🇺 俄罗斯 (Russia) 05 - lgxbh
+  server: 91.240.86.70
+  port: 22443
+  udp: true
+  type: hysteria2
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  sni: hy.quattro-tech.ru
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 06 - lgxbh
   server: msk.frkn.org
   port: 443
   udp: true
@@ -48,7 +52,7 @@ proxies:
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   sni: msk.frkn.org
   skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 05 - lgxbh
+- name: 🇷🇺 俄罗斯 (Russia) 07 - lgxbh
   server: 46.8.200.91
   port: 443
   udp: true
@@ -63,13 +67,14 @@ proxies:
     path: /casc
     headers:
       Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 06 - lgxbh
-  server: 130.49.189.158
-  port: 43558
+- name: 🇷🇺 俄罗斯 (Russia) 08 - lgxbh
+  server: 31.76.71.252
+  port: 443
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs=
+  type: hysteria2
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  sni: gta.internet-card.sbs
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -81,6 +86,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - lgxbh
   - 🇷🇺 俄罗斯 (Russia) 05 - lgxbh
   - 🇷🇺 俄罗斯 (Russia) 06 - lgxbh
+  - 🇷🇺 俄罗斯 (Russia) 07 - lgxbh
+  - 🇷🇺 俄罗斯 (Russia) 08 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -92,5 +99,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - lgxbh
   - 🇷🇺 俄罗斯 (Russia) 05 - lgxbh
   - 🇷🇺 俄罗斯 (Russia) 06 - lgxbh
+  - 🇷🇺 俄罗斯 (Russia) 07 - lgxbh
+  - 🇷🇺 俄罗斯 (Russia) 08 - lgxbh
 rules:
 - MATCH,PROXIES
