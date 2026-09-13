@@ -5,18 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - lgxbh
-  server: 162.159.43.187
-  port: 2095
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: '/?ed=2560security=tls '
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - lgxbh
-  server: 162.159.24.131
+  server: 162.159.38.127
   port: 2052
   udp: true
   type: vless
@@ -26,6 +15,21 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - lgxbh
+  server: 104.18.42.54
+  port: 2083
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: newwk1.f1w.de5.net
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: newwk1.f1w.de5.net
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - lgxbh
   server: 62.233.39.9
   port: 8443
@@ -36,17 +40,10 @@ proxies:
   reality-opts:
     public-key: oHaUPZiESTQQ89DMd4uIcPWgsyeFFy58iZYX_8mbvWk
   servername: dl.dell.com
-  client-fingerprint: chrome
+  client-fingerprint: safari
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - lgxbh
-  server: 94.198.220.183
-  port: 64674
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: s8LbJCgUiGXeCKVc63tHJP
 proxy-groups:
 - name: PROXIES
   type: select
@@ -55,7 +52,6 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - lgxbh
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - lgxbh
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - lgxbh
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -64,6 +60,5 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - lgxbh
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - lgxbh
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - lgxbh
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - lgxbh
 rules:
 - MATCH,PROXIES

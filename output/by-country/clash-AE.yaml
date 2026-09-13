@@ -15,8 +15,23 @@ proxies:
   reality-opts:
     public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
   servername: tradingview.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 02 - lgxbh
+  server: 162.159.153.4
+  port: 443
+  udp: true
+  type: vless
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  tls: true
+  servername: rayan-007.maxima.dpdns.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.maxima.dpdns.org
+- name: 🇦🇪 阿联酋 (UAE) 03 - lgxbh
   server: 31.56.189.27
   port: 2087
   udp: true
@@ -29,7 +44,15 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: freegrpc
-- name: 🇦🇪 阿联酋 (UAE) 03 - lgxbh
+- name: 🇦🇪 阿联酋 (UAE) 04 - lgxbh
+  server: 85.204.107.176
+  port: 8080
+  udp: true
+  type: hysteria2
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  sni: hopp-romania-new.roxa.org
+  skip-cert-verify: true
+- name: 🇦🇪 阿联酋 (UAE) 05 - lgxbh
   server: 130.49.161.70
   port: 443
   udp: true
@@ -39,28 +62,44 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 04 - lgxbh
-  server: 85.204.107.178
-  port: 8080
+- name: 🇦🇪 阿联酋 (UAE) 06 - lgxbh
+  server: upload.tbotapi.ru
+  port: 443
   udp: true
-  type: hysteria2
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  sni: hopp-romania-new.roxa.org
-  skip-cert-verify: false
-- name: 🇦🇪 阿联酋 (UAE) 05 - lgxbh
-  server: 89.47.55.8
+  type: vless
+  uuid: 624208cf-54e0-4341-823b-1bee6595fce9
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: nDUrcIPWyCo7gAOVPfjAneLz17NdCrUMCIvdJsTRsD4
+  servername: upload.tbotapi.ru
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 07 - lgxbh
+  server: 167.179.110.68
   port: 8443
   udp: true
   type: vless
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
   tls: true
-  reality-opts:
-    public-key: WtLZK1KyhSpI3K-R4M3sLAHWPOgGPMgkL6RneL0OfCY
-  servername: download.nvidia.com
+  servername: notls.lukongtou.eu.org
+  skip-cert-verify: false
   client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
+  network: ws
+  ws-opts:
+    path: /Telegram-WangCai2🇨🇳
+    headers:
+      Host: notls.lukongtou.eu.org
+- name: 🇦🇪 阿联酋 (UAE) 08 - lgxbh
+  server: 84.235.244.108
+  port: 22573
+  udp: true
+  type: vless
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
@@ -71,6 +110,9 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - lgxbh
   - 🇦🇪 阿联酋 (UAE) 04 - lgxbh
   - 🇦🇪 阿联酋 (UAE) 05 - lgxbh
+  - 🇦🇪 阿联酋 (UAE) 06 - lgxbh
+  - 🇦🇪 阿联酋 (UAE) 07 - lgxbh
+  - 🇦🇪 阿联酋 (UAE) 08 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -81,5 +123,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - lgxbh
   - 🇦🇪 阿联酋 (UAE) 04 - lgxbh
   - 🇦🇪 阿联酋 (UAE) 05 - lgxbh
+  - 🇦🇪 阿联酋 (UAE) 06 - lgxbh
+  - 🇦🇪 阿联酋 (UAE) 07 - lgxbh
+  - 🇦🇪 阿联酋 (UAE) 08 - lgxbh
 rules:
 - MATCH,PROXIES
