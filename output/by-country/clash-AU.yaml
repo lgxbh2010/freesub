@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - lgxbh
-  server: 82.198.246.233
+  server: 82.198.246.37
   port: 180
   udp: true
   type: vmess
@@ -13,21 +13,6 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇦🇺 澳大利亚 (Australia) 02 - lgxbh
-  server: 104.18.155.229
-  port: 443
-  udp: true
-  type: vless
-  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
-  tls: true
-  servername: www.genflix.co.id.r3xxe.eu.cc
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /au-do
-    headers:
-      Host: www.genflix.co.id.r3xxe.eu.cc
-- name: 🇦🇺 澳大利亚 (Australia) 03 - lgxbh
   server: 103.75.119.126
   port: 2087
   udp: true
@@ -36,21 +21,16 @@ proxies:
   network: ws
   ws-opts:
     path: /7586c69d3dc9
-- name: 🇦🇺 澳大利亚 (Australia) 04 - lgxbh
-  server: 51.161.204.242
+- name: 🇦🇺 澳大利亚 (Australia) 03 - lgxbh
+  server: vpn-au-002.fastervpn.world
   port: 443
   udp: true
-  type: vless
-  uuid: a14b736b-a92a-48d6-a596-5d31f7378ded
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE
-    short-id: d15c17cef9b2e456
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇦🇺 澳大利亚 (Australia) 05 - lgxbh
-  server: vpn-au-002.fastervpn.world
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: whatsapp.com
+  skip-cert-verify: true
+- name: 🇦🇺 澳大利亚 (Australia) 04 - lgxbh
+  server: 32.236.171.236
   port: 443
   udp: true
   type: hysteria2
@@ -66,7 +46,6 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 02 - lgxbh
   - 🇦🇺 澳大利亚 (Australia) 03 - lgxbh
   - 🇦🇺 澳大利亚 (Australia) 04 - lgxbh
-  - 🇦🇺 澳大利亚 (Australia) 05 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -76,6 +55,5 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 02 - lgxbh
   - 🇦🇺 澳大利亚 (Australia) 03 - lgxbh
   - 🇦🇺 澳大利亚 (Australia) 04 - lgxbh
-  - 🇦🇺 澳大利亚 (Australia) 05 - lgxbh
 rules:
 - MATCH,PROXIES

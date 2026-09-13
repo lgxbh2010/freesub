@@ -5,23 +5,26 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 01 - lgxbh",
-      "server": "204.168.195.30",
-      "server_port": 51185,
-      "uuid": "12af43c3-84b4-4248-878b-b75f35835487",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇵🇰 巴基斯坦 (Pakistan) 01 - lgxbh",
+      "server": "64.49.38.3",
+      "server_port": 8443,
+      "uuid": "dca76b88-b038-e82b-45e1-1d76b476d7ca",
       "tls": {
         "enabled": true,
-        "server_name": "amp-api-edge.apps.apple.com",
+        "server_name": "download.nvidia.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "VFDbAJQdqzKl7hL6SmUrhHHEORtILSsJHYWF67an1HU",
-          "short_id": "55a464180d3b1f7e"
+          "public_key": "JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0",
+          "short_id": ""
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "TunService"
       }
     },
     {
@@ -29,14 +32,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 芬兰 (Finland) 01 - lgxbh"
+        "🇵🇰 巴基斯坦 (Pakistan) 01 - lgxbh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 芬兰 (Finland) 01 - lgxbh"
+        "🇵🇰 巴基斯坦 (Pakistan) 01 - lgxbh"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
