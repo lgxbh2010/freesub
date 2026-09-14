@@ -5,57 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - lgxbh
-  server: 147.78.182.3
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 8bf3e040-8ac9-5d0e-304f-9b735e145de8
-  tls: true
-  reality-opts:
-    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
-  servername: www.epson.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇷🇺 俄罗斯 (Russia) 02 - lgxbh
-  server: 8.6.112.9
-  port: 443
-  udp: true
-  type: vless
-  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
-  tls: true
-  servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: ancient-heart-60c5.dpccgizieb.workers.dev
-- name: 🇷🇺 俄罗斯 (Russia) 03 - lgxbh
-  server: 172.66.44.124
-  port: 8443
-  udp: true
-  type: vless
-  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
-  tls: true
-  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-- name: 🇷🇺 俄罗斯 (Russia) 04 - lgxbh
-  server: 185.39.204.3
-  port: 8098
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: PluSKSrbtxTvlVv7BOUwn4
-- name: 🇷🇺 俄罗斯 (Russia) 05 - lgxbh
   server: 91.240.86.70
   port: 22443
   udp: true
@@ -63,7 +12,7 @@ proxies:
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   sni: hy.quattro-tech.ru
   skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 06 - lgxbh
+- name: 🇷🇺 俄罗斯 (Russia) 02 - lgxbh
   server: msk.frkn.org
   port: 443
   udp: true
@@ -71,28 +20,6 @@ proxies:
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   sni: msk.frkn.org
   skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 07 - lgxbh
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs=
-- name: 🇷🇺 俄罗斯 (Russia) 08 - lgxbh
-  server: 46.8.200.91
-  port: 443
-  udp: true
-  type: vless
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  tls: true
-  servername: cf3.rumedia-cdn.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /casc
-    headers:
-      Host: cf3.rumedia-cdn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -100,12 +27,6 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - lgxbh
   - 🇷🇺 俄罗斯 (Russia) 02 - lgxbh
-  - 🇷🇺 俄罗斯 (Russia) 03 - lgxbh
-  - 🇷🇺 俄罗斯 (Russia) 04 - lgxbh
-  - 🇷🇺 俄罗斯 (Russia) 05 - lgxbh
-  - 🇷🇺 俄罗斯 (Russia) 06 - lgxbh
-  - 🇷🇺 俄罗斯 (Russia) 07 - lgxbh
-  - 🇷🇺 俄罗斯 (Russia) 08 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -113,11 +34,5 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - lgxbh
   - 🇷🇺 俄罗斯 (Russia) 02 - lgxbh
-  - 🇷🇺 俄罗斯 (Russia) 03 - lgxbh
-  - 🇷🇺 俄罗斯 (Russia) 04 - lgxbh
-  - 🇷🇺 俄罗斯 (Russia) 05 - lgxbh
-  - 🇷🇺 俄罗斯 (Russia) 06 - lgxbh
-  - 🇷🇺 俄罗斯 (Russia) 07 - lgxbh
-  - 🇷🇺 俄罗斯 (Russia) 08 - lgxbh
 rules:
 - MATCH,PROXIES
