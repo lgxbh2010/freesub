@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - lgxbh
-  server: 82.198.246.250
+  server: 82.198.246.233
   port: 180
   udp: true
   type: vmess
@@ -13,14 +13,13 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇦🇺 澳大利亚 (Australia) 02 - lgxbh
-  server: 103.75.119.126
-  port: 2087
+  server: vpn-au-002.fastervpn.world
+  port: 443
   udp: true
-  type: vless
-  uuid: 731f177e-00aa-480c-b935-661456139a32
-  network: ws
-  ws-opts:
-    path: /7586c69d3dc9
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: css.rbxcdn.com
+  skip-cert-verify: true
 - name: 🇦🇺 澳大利亚 (Australia) 03 - lgxbh
   server: 51.161.204.242
   port: 443
@@ -35,13 +34,14 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇦🇺 澳大利亚 (Australia) 04 - lgxbh
-  server: vpn-au-002.fastervpn.world
-  port: 443
+  server: 103.75.119.126
+  port: 2087
   udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: whatsapp.com
-  skip-cert-verify: true
+  type: vless
+  uuid: 731f177e-00aa-480c-b935-661456139a32
+  network: ws
+  ws-opts:
+    path: /7586c69d3dc9
 proxy-groups:
 - name: PROXIES
   type: select

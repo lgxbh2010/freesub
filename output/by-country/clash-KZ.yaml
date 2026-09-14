@@ -5,31 +5,46 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - lgxbh
-  server: 91.224.87.22
-  port: 9882
+  server: 185.193.29.123
+  port: 443
   udp: true
   type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  tls: true
+  servername: notls.lukongtou.eu.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: Telegram-WangCai2🇨🇳
+    headers:
+      Host: notls.lukongtou.eu.org
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - lgxbh
+  server: 62.233.39.9
+  port: 8443
+  udp: true
+  type: vless
+  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
   tls: true
   reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aa
-  servername: dl.google.com
-  client-fingerprint: qq
+    public-key: oHaUPZiESTQQ89DMd4uIcPWgsyeFFy58iZYX_8mbvWk
+  servername: dl.dell.com
+  client-fingerprint: ios
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc-tunnel
+    grpc-service-name: TunService
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - lgxbh
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - lgxbh
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - lgxbh
 rules:
 - MATCH,PROXIES

@@ -6,17 +6,50 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 01 - lgxbh",
+      "server": "185.79.138.71",
+      "server_port": 448,
+      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
+          "short_id": "cd21e552537c7c0b"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - lgxbh",
       "server": "188.132.237.20",
       "server_port": 2095,
       "uuid": "3b9e513e-30d9-4ca8-8340-8f33fc6710de"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇫🇮 芬兰 (Finland) 02 - lgxbh",
-      "server": "65.109.215.118",
-      "server_port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "rSeYcig_XBy8q3k33NpK3A"
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - lgxbh",
+      "server": "app-ms-35.ecom-ai-solutions.com",
+      "server_port": 443,
+      "uuid": "a71ad164-3b29-4dbe-aa66-24d095ca7b6d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "assets-ms-35.ecom-ai-solutions.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "NA5eMfdHkl_L80S75uxQwUirS9nvZ80V2u1s71KeXkc",
+          "short_id": "2de63d3fd7261b7e"
+        }
+      }
     },
     {
       "type": "selector",
@@ -24,7 +57,8 @@
       "outbounds": [
         "auto",
         "🇫🇮 芬兰 (Finland) 01 - lgxbh",
-        "🇫🇮 芬兰 (Finland) 02 - lgxbh"
+        "🇫🇮 芬兰 (Finland) 02 - lgxbh",
+        "🇫🇮 芬兰 (Finland) 03 - lgxbh"
       ]
     },
     {
@@ -32,7 +66,8 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 芬兰 (Finland) 01 - lgxbh",
-        "🇫🇮 芬兰 (Finland) 02 - lgxbh"
+        "🇫🇮 芬兰 (Finland) 02 - lgxbh",
+        "🇫🇮 芬兰 (Finland) 03 - lgxbh"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

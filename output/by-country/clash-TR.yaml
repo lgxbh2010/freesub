@@ -1,0 +1,67 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇹🇷 土耳其 (Turkey) 01 - lgxbh
+  server: 185.87.24.4
+  port: 2085
+  udp: true
+  type: vless
+  uuid: 128314f6-f09a-426f-b758-b8e559c38ddb
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇹🇷 土耳其 (Turkey) 02 - lgxbh
+  server: add.life-pro.ir
+  port: 8082
+  udp: true
+  type: vless
+  uuid: 79f98593-6a21-4783-a425-3d5609a79df1
+- name: 🇹🇷 土耳其 (Turkey) 03 - lgxbh
+  server: 172.67.151.109
+  port: 443
+  udp: true
+  type: vless
+  uuid: 50414e45-4c5f-5a45-5553-635698a6bb9c
+  tls: true
+  servername: jdzit4e4urks.xwzohsebujps.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/635698a6bb9c/loc-0
+    headers:
+      Host: jdzit4e4urks.xwzohsebujps.workers.dev
+- name: 🇹🇷 土耳其 (Turkey) 04 - lgxbh
+  server: shop.neexbyte.ir
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 464bc502-f963-45b6-81e3-e33d18427506
+  tls: true
+  servername: shop.neexbyte.ir
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇹🇷 土耳其 (Turkey) 01 - lgxbh
+  - 🇹🇷 土耳其 (Turkey) 02 - lgxbh
+  - 🇹🇷 土耳其 (Turkey) 03 - lgxbh
+  - 🇹🇷 土耳其 (Turkey) 04 - lgxbh
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇹🇷 土耳其 (Turkey) 01 - lgxbh
+  - 🇹🇷 土耳其 (Turkey) 02 - lgxbh
+  - 🇹🇷 土耳其 (Turkey) 03 - lgxbh
+  - 🇹🇷 土耳其 (Turkey) 04 - lgxbh
+rules:
+- MATCH,PROXIES
