@@ -4,30 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇱 以色列 (Israel) 01 - lgxbh
-  server: 185.95.231.156
-  port: 443
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - lgxbh
+  server: 178.236.16.98
+  port: 35728
   udp: true
   type: vless
-  uuid: 1f8cf47a-b66a-4916-979f-26edfcf44eea
-  flow: xtls-rprx-vision
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
   tls: true
   reality-opts:
-    public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
-    short-id: a3a578ab
-  servername: www.apple.com
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+  servername: yahoo.com
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇱 以色列 (Israel) 01 - lgxbh
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇱 以色列 (Israel) 01 - lgxbh
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - lgxbh
 rules:
 - MATCH,PROXIES

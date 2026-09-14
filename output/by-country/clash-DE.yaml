@@ -5,141 +5,82 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - lgxbh
-  server: 199.232.78.160
-  port: 443
-  udp: true
-  type: trojan
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇩🇪 德国 (Germany) 02 - lgxbh
-  server: 8.209.74.72
-  port: 20001
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: PWpjPo3tqhPN4yRZ
-- name: 🇩🇪 德国 (Germany) 03 - lgxbh
-  server: 178.105.187.73
-  port: 8557
-  udp: true
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: CDFvxFTDtN82wcL3jMRNPg==:9hc+aOTa6oOZuBPX9EUxvA==
-- name: 🇩🇪 德国 (Germany) 04 - lgxbh
-  server: 2.58.81.221
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
-- name: 🇩🇪 德国 (Germany) 05 - lgxbh
-  server: 185.226.172.8
-  port: 8008
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: 🇩🇪 德国 (Germany) 06 - lgxbh
   server: 213.202.208.199
   port: 7001
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
-- name: 🇩🇪 德国 (Germany) 07 - lgxbh
+- name: 🇩🇪 德国 (Germany) 02 - lgxbh
+  server: 79.137.207.190
+  port: 2
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9ri2bpxWs4FHXRjlhTFlQQ
+- name: 🇩🇪 德国 (Germany) 03 - lgxbh
   server: 2.58.81.221
   port: 80
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: kKEd0rBrd56Furjz
-- name: 🇩🇪 德国 (Germany) 08 - lgxbh
+- name: 🇩🇪 德国 (Germany) 04 - lgxbh
   server: 209.46.102.22
   port: 8388
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 1hhrqrokj3ag
+- name: 🇩🇪 德国 (Germany) 05 - lgxbh
+  server: 8.209.74.72
+  port: 20001
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: PWpjPo3tqhPN4yRZ
+- name: 🇩🇪 德国 (Germany) 06 - lgxbh
+  server: 79.137.207.190
+  port: 3
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9ri2bpxWs4FHXRjlhTFlQQ
+- name: 🇩🇪 德国 (Germany) 07 - lgxbh
+  server: 185.226.172.8
+  port: 8008
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 🇩🇪 德国 (Germany) 08 - lgxbh
+  server: 5.231.17.131
+  port: 52006
+  udp: true
+  type: vless
+  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: o_ZQuEx_ealt_YkqgtYRqFhee0pzFkg9ObUhODLTAB8
+    short-id: 08
+  servername: api5.vk-maps.net
+  client-fingerprint: qq
 - name: 🇩🇪 德国 (Germany) 09 - lgxbh
-  server: 170.101.109.37
-  port: 443
+  server: setlor.rehan-iogsar.ir
+  port: 4680
   udp: true
-  type: vless
-  uuid: bf645ffe-a3cc-4480-8e4c-9bcd1af41052
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: rTnh7Y8RsSA5HSvFf-pWT49x8va6U6XHMRgNiMuwB0A
-    short-id: ab88d256
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: 1JvlmtT4v8y1yGczDtT6Ww==:aCtpeMietGsJY50h6jDW6w==
 - name: 🇩🇪 德国 (Germany) 10 - lgxbh
-  server: 82.24.203.20
-  port: 2087
+  server: 2.58.81.221
+  port: 443
   udp: true
-  type: vless
-  uuid: 5fcdc9b7-e70f-4a5c-85c3-e018ad818326
-  network: ws
-  ws-opts:
-    path: /fd5ba98a3970
+  type: ss
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
 - name: 🇩🇪 德国 (Germany) 11 - lgxbh
-  server: 144.31.125.60
-  port: 443
-  udp: true
-  type: vless
-  uuid: 9015f0bc-2053-4ca1-9b9b-a018b97b32d2
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SVgtyuD9khylgHuB0treGekxVSHPOS-wPZTNHUf6zj8
-    short-id: 85c86a9863
-  servername: www.intel.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 12 - lgxbh
-  server: 144.31.221.57
-  port: 443
-  udp: true
-  type: hysteria2
-  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
-  sni: player.wwwinternetvideo.click
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 13 - lgxbh
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: OV-Germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 14 - lgxbh
-  server: 82.118.19.153
-  port: 443
-  udp: true
-  type: vless
-  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
-    short-id: 670ed9f350bd8ee0
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 15 - lgxbh
-  server: 144.31.148.87
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-  sni: replay.wwwinternetvideo.click
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 16 - lgxbh
   server: 144.31.168.95
   port: 443
   udp: true
@@ -151,8 +92,53 @@ proxies:
     public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
     short-id: 00bca5982f82d083
   servername: eu-central.cendora.ru
-  client-fingerprint: random
-- name: 🇩🇪 德国 (Germany) 17 - lgxbh
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 12 - lgxbh
+  server: 144.31.148.87
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
+  sni: replay.wwwinternetvideo.click
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 13 - lgxbh
+  server: 82.118.19.153
+  port: 443
+  udp: true
+  type: vless
+  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
+    short-id: 670ed9f350bd8ee0
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 14 - lgxbh
+  server: 178.105.61.61
+  port: 2083
+  udp: true
+  type: vless
+  uuid: cb077bf2-70b7-457b-af42-27cdc3e0e544
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: H0nCazQFHVhSObfqSUhGLhK7KRwKzTMggIBPjnMMqhk
+    short-id: af04ff8094115e93
+  servername: 178.105.61.61
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 15 - lgxbh
+  server: 57.129.41.216
+  port: 80
+  udp: true
+  type: vless
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: OV-Germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 16 - lgxbh
   server: 93.94.52.23
   port: 40443
   udp: true
@@ -165,15 +151,39 @@ proxies:
     short-id: db46e2946fc466fd
   servername: deepl.com
   client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 17 - lgxbh
+  server: 170.101.109.37
+  port: 443
+  udp: true
+  type: vless
+  uuid: bf645ffe-a3cc-4480-8e4c-9bcd1af41052
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: rTnh7Y8RsSA5HSvFf-pWT49x8va6U6XHMRgNiMuwB0A
+    short-id: ab88d256
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇩🇪 德国 (Germany) 18 - lgxbh
-  server: 130.61.50.75
-  port: 6443
+  server: 144.31.221.57
+  port: 443
   udp: true
   type: hysteria2
-  password: zhangyang
-  sni: 130.61.50.75
+  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
+  sni: player.wwwinternetvideo.click
   skip-cert-verify: true
 - name: 🇩🇪 德国 (Germany) 19 - lgxbh
+  server: 163.8.195.241
+  port: 2087
+  udp: true
+  type: vless
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  network: ws
+  ws-opts:
+    path: /29c8fed7ca22
+    headers:
+      Host: zoom.us
+- name: 🇩🇪 德国 (Germany) 20 - lgxbh
   server: 93.152.217.41
   port: 40443
   udp: true
@@ -185,38 +195,22 @@ proxies:
     short-id: 5b97
   servername: deepl.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 20 - lgxbh
-  server: setlor.rehan-iogsar.ir
-  port: 4680
-  udp: true
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: 1JvlmtT4v8y1yGczDtT6Ww==:aCtpeMietGsJY50h6jDW6w==
 - name: 🇩🇪 德国 (Germany) 21 - lgxbh
-  server: 162.248.166.35
-  port: 443
-  udp: true
-  type: vless
-  uuid: d92b6509-8b63-4505-b3a2-1dc5b1c014ac
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: NYG48Fv1MF3SqOpHwoa4GqJH5IJrocSrwWzrffY-tCk
-    short-id: c6dc8abb0235dc05
-  servername: www.caradisiac.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 22 - lgxbh
-  server: 80.91.79.136
-  port: 443
+  server: 130.61.50.75
+  port: 6443
   udp: true
   type: hysteria2
-  password: c4d7e69958b226a426157a6e80eb9406
-  sni: 80.91.79.136
+  password: zhangyang
+  sni: 130.61.50.75
   skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
+- name: 🇩🇪 德国 (Germany) 22 - lgxbh
+  server: 140.82.34.114
+  port: 25585
+  udp: true
+  type: vless
+  uuid: 8b84bbec-9a55-47c2-ac2e-03c41065e572
 - name: 🇩🇪 德国 (Germany) 23 - lgxbh
-  server: 82.39.171.12
+  server: 82.39.171.142
   port: 443
   udp: true
   type: vless
@@ -229,26 +223,49 @@ proxies:
   servername: yahoo.com
   client-fingerprint: ios
 - name: 🇩🇪 德国 (Germany) 24 - lgxbh
-  server: 2.27.59.206
+  server: 162.248.166.35
   port: 443
   udp: true
-  type: hysteria2
-  password: cd74c0a406664a5bc0bac098220a2468
-  sni: de1.sferavpn.pro
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  type: vless
+  uuid: d92b6509-8b63-4505-b3a2-1dc5b1c014ac
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: NYG48Fv1MF3SqOpHwoa4GqJH5IJrocSrwWzrffY-tCk
+    short-id: c6dc8abb0235dc05
+  servername: www.caradisiac.com
+  client-fingerprint: firefox
 - name: 🇩🇪 德国 (Germany) 25 - lgxbh
-  server: 163.8.195.241
-  port: 2087
+  server: 51.75.89.203
+  port: 12466
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 90ac7362f6711324
+- name: 🇩🇪 德国 (Germany) 26 - lgxbh
+  server: 82.39.171.12
+  port: 443
   udp: true
   type: vless
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  servername: yahoo.com
+  client-fingerprint: ios
+- name: 🇩🇪 德国 (Germany) 27 - lgxbh
+  server: undef.network
+  port: 2052
+  udp: true
+  type: vless
+  uuid: f5267873-5379-409e-b67a-145ea54deb70
   network: ws
   ws-opts:
-    path: /29c8fed7ca22
+    path: /@BlueKnight_net--@BlueKnight_net
     headers:
-      Host: zoom.us
+      Host: uwu.blueknightnet.qzz.io
 proxy-groups:
 - name: PROXIES
   type: select
@@ -279,6 +296,8 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 23 - lgxbh
   - 🇩🇪 德国 (Germany) 24 - lgxbh
   - 🇩🇪 德国 (Germany) 25 - lgxbh
+  - 🇩🇪 德国 (Germany) 26 - lgxbh
+  - 🇩🇪 德国 (Germany) 27 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -309,5 +328,7 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 23 - lgxbh
   - 🇩🇪 德国 (Germany) 24 - lgxbh
   - 🇩🇪 德国 (Germany) 25 - lgxbh
+  - 🇩🇪 德国 (Germany) 26 - lgxbh
+  - 🇩🇪 德国 (Germany) 27 - lgxbh
 rules:
 - MATCH,PROXIES

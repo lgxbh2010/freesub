@@ -20,6 +20,26 @@ proxies:
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   sni: msk.frkn.org
   skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 03 - lgxbh
+  server: els1.mangshe.xyz
+  port: 2056
+  udp: true
+  type: hysteria2
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 04 - lgxbh
+  server: 45.12.75.242
+  port: 26424
+  udp: true
+  type: vless
+  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  tls: true
+  reality-opts:
+    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
+    short-id: 23103e1e
+  servername: ya.ru
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -27,6 +47,8 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - lgxbh
   - 🇷🇺 俄罗斯 (Russia) 02 - lgxbh
+  - 🇷🇺 俄罗斯 (Russia) 03 - lgxbh
+  - 🇷🇺 俄罗斯 (Russia) 04 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -34,5 +56,7 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - lgxbh
   - 🇷🇺 俄罗斯 (Russia) 02 - lgxbh
+  - 🇷🇺 俄罗斯 (Russia) 03 - lgxbh
+  - 🇷🇺 俄罗斯 (Russia) 04 - lgxbh
 rules:
 - MATCH,PROXIES
