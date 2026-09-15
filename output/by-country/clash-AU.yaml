@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - lgxbh
-  server: 82.198.246.233
+  server: 82.198.246.37
   port: 180
   udp: true
   type: vmess
@@ -13,14 +13,23 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇦🇺 澳大利亚 (Australia) 02 - lgxbh
+  server: 103.75.119.126
+  port: 2087
+  udp: true
+  type: vless
+  uuid: 731f177e-00aa-480c-b935-661456139a32
+  network: ws
+  ws-opts:
+    path: /7586c69d3dc9
+- name: 🇦🇺 澳大利亚 (Australia) 03 - lgxbh
   server: vpn-au-002.fastervpn.world
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: css.rbxcdn.com
+  sni: www.bing.com
   skip-cert-verify: true
-- name: 🇦🇺 澳大利亚 (Australia) 03 - lgxbh
+- name: 🇦🇺 澳大利亚 (Australia) 04 - lgxbh
   server: au1.gsafevpnapi.com
   port: 20270
   udp: true
@@ -41,6 +50,7 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 01 - lgxbh
   - 🇦🇺 澳大利亚 (Australia) 02 - lgxbh
   - 🇦🇺 澳大利亚 (Australia) 03 - lgxbh
+  - 🇦🇺 澳大利亚 (Australia) 04 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -49,5 +59,6 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 01 - lgxbh
   - 🇦🇺 澳大利亚 (Australia) 02 - lgxbh
   - 🇦🇺 澳大利亚 (Australia) 03 - lgxbh
+  - 🇦🇺 澳大利亚 (Australia) 04 - lgxbh
 rules:
 - MATCH,PROXIES
