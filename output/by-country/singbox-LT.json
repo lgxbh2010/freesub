@@ -4,33 +4,33 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 01 - lgxbh",
-      "server": "195.238.126.20",
-      "server_port": 9012,
-      "method": "aes-256-cfb",
-      "password": "xaupMUvhptwxdDUg"
-    },
-    {
       "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 02 - lgxbh",
-      "server": "lith.2clash.ru",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 01 - lgxbh",
+      "server": "lt.aether-runet.top",
       "server_port": 443,
-      "uuid": "8e403675-d020-4801-9520-9cba4bbfda0e",
+      "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lith.2clash.ru",
+        "server_name": "lt.aether-runet.top",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "66DIn_CbsE4-fWeWpy3vrRLP-XN8D-axun3jbZzuPmk",
-          "short_id": ""
+          "public_key": "vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk",
+          "short_id": "4fa44664f6a566d3"
         }
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 02 - lgxbh",
+      "server": "195.238.126.20",
+      "server_port": 9008,
+      "method": "aes-256-cfb",
+      "password": "y9VURyNzJWNRYEGQ"
     },
     {
       "type": "selector",

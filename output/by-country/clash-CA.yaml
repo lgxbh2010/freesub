@@ -5,32 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇦 加拿大 (Canada) 01 - lgxbh
-  server: 104.24.30.89
-  port: 443
+  server: 134.195.196.211
+  port: 18000
   udp: true
-  type: vless
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
 - name: 🇨🇦 加拿大 (Canada) 02 - lgxbh
-  server: 66.70.179.198
-  port: 2053
+  server: 23.162.200.198
+  port: 18000
   udp: true
-  type: vless
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
-  tls: true
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-    short-id: 83f8317a948bb769
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
 - name: 🇨🇦 加拿大 (Canada) 03 - lgxbh
   server: 216.152.147.28
   port: 443
@@ -43,8 +32,42 @@ proxies:
     public-key: kjiuPmjM4IutdZudHfcPZHEwcrBEFY4qBLlvfC6A_Ss
     short-id: b9f8d3f8
   servername: www.cloudflare.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇨🇦 加拿大 (Canada) 04 - lgxbh
+  server: 166.88.130.218
+  port: 7018
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: fbcec76953a2d173
+- name: 🇨🇦 加拿大 (Canada) 05 - lgxbh
+  server: 15.223.122.197
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 15.223.122.197
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 06 - lgxbh
+  server: 66.70.179.198
+  port: 2053
+  udp: true
+  type: vless
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  tls: true
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+    short-id: 83f8317a948bb769
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇨🇦 加拿大 (Canada) 07 - lgxbh
+  server: 149.22.95.183
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇨🇦 加拿大 (Canada) 08 - lgxbh
   server: 158.69.112.254
   port: 443
   udp: true
@@ -56,23 +79,8 @@ proxies:
     public-key: wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y
     short-id: 3d3c1e645f763ee3
   servername: www.speedtest.net
-  client-fingerprint: firefox
-- name: 🇨🇦 加拿大 (Canada) 05 - lgxbh
-  server: 138.197.141.58
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇨🇦 加拿大 (Canada) 06 - lgxbh
-  server: 15.223.122.197
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 07 - lgxbh
+  client-fingerprint: chrome
+- name: 🇨🇦 加拿大 (Canada) 09 - lgxbh
   server: 130.107.73.148
   port: 41373
   udp: true
@@ -85,7 +93,7 @@ proxies:
     short-id: 0e
   servername: google.com
   client-fingerprint: chrome
-- name: 🇨🇦 加拿大 (Canada) 08 - lgxbh
+- name: 🇨🇦 加拿大 (Canada) 10 - lgxbh
   server: 209.200.246.148
   port: 443
   udp: true
@@ -98,50 +106,7 @@ proxies:
     short-id: f98843107912e782
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇨🇦 加拿大 (Canada) 09 - lgxbh
-  server: 51.222.155.113
-  port: 5601
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 🇨🇦 加拿大 (Canada) 10 - lgxbh
-  server: 51.222.12.127
-  port: 445
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
 - name: 🇨🇦 加拿大 (Canada) 11 - lgxbh
-  server: 23.162.200.198
-  port: 18000
-  udp: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-- name: 🇨🇦 加拿大 (Canada) 12 - lgxbh
-  server: 51.222.141.125
-  port: 445
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-- name: 🇨🇦 加拿大 (Canada) 13 - lgxbh
-  server: 149.22.95.183
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇨🇦 加拿大 (Canada) 14 - lgxbh
-  server: 51.222.107.43
-  port: 2083
-  udp: true
-  type: ss
-  cipher: 2022-blake3-aes-256-gcm
-  password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:HWFFJN19JkvbTKo/79AfnbRBK9uHUUaFNZJyLjEoJGs=
-- name: 🇨🇦 加拿大 (Canada) 15 - lgxbh
   server: 66.70.179.124
   port: 443
   udp: true
@@ -154,48 +119,28 @@ proxies:
     short-id: af7e79b5
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇨🇦 加拿大 (Canada) 16 - lgxbh
-  server: 51.79.49.116
-  port: 8882
+- name: 🇨🇦 加拿大 (Canada) 12 - lgxbh
+  server: vpn-ca-002.fastervpn.world
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: 🇨🇦 加拿大 (Canada) 17 - lgxbh
-  server: 51.79.85.185
-  port: 8118
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-- name: 🇨🇦 加拿大 (Canada) 18 - lgxbh
-  server: 51.222.136.236
-  port: 8882
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: 🇨🇦 加拿大 (Canada) 19 - lgxbh
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: speedtest.tinkoff.ru
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 13 - lgxbh
   server: 51.222.200.165
   port: 5000
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
-- name: 🇨🇦 加拿大 (Canada) 20 - lgxbh
-  server: 51.79.64.198
-  port: 8119
+- name: 🇨🇦 加拿大 (Canada) 14 - lgxbh
+  server: 51.222.141.125
+  port: 445
   udp: true
   type: ss
   cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-- name: 🇨🇦 加拿大 (Canada) 21 - lgxbh
-  server: 51.222.155.32
-  port: 5003
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
+  password: zDNVedRFPQexG9v
 proxy-groups:
 - name: PROXIES
   type: select
@@ -215,13 +160,6 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 12 - lgxbh
   - 🇨🇦 加拿大 (Canada) 13 - lgxbh
   - 🇨🇦 加拿大 (Canada) 14 - lgxbh
-  - 🇨🇦 加拿大 (Canada) 15 - lgxbh
-  - 🇨🇦 加拿大 (Canada) 16 - lgxbh
-  - 🇨🇦 加拿大 (Canada) 17 - lgxbh
-  - 🇨🇦 加拿大 (Canada) 18 - lgxbh
-  - 🇨🇦 加拿大 (Canada) 19 - lgxbh
-  - 🇨🇦 加拿大 (Canada) 20 - lgxbh
-  - 🇨🇦 加拿大 (Canada) 21 - lgxbh
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -241,12 +179,5 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 12 - lgxbh
   - 🇨🇦 加拿大 (Canada) 13 - lgxbh
   - 🇨🇦 加拿大 (Canada) 14 - lgxbh
-  - 🇨🇦 加拿大 (Canada) 15 - lgxbh
-  - 🇨🇦 加拿大 (Canada) 16 - lgxbh
-  - 🇨🇦 加拿大 (Canada) 17 - lgxbh
-  - 🇨🇦 加拿大 (Canada) 18 - lgxbh
-  - 🇨🇦 加拿大 (Canada) 19 - lgxbh
-  - 🇨🇦 加拿大 (Canada) 20 - lgxbh
-  - 🇨🇦 加拿大 (Canada) 21 - lgxbh
 rules:
 - MATCH,PROXIES
